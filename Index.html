@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">BookWorld</div>
+
+        <nav class="navigation">
+            <a href="#">Главная</a>
+            <a href="catalog.html">Каталог</a>
+            <a href="#about">О нас</a>
+            <a href="#contacts">Контакты</a>
+            <a href="#cart">Корзина</a>
+        </nav>
+
+        <form class="search">
+            <input type="text" placeholder="Поиск книг">
+            <button type="submit">Найти</button>
+        </form>
+    </header>
+    <main>
+        <section class="welcome">
+            <h1>Добро пожаловать в BookWorld</h1>
+            <p> Откройте для себя удивительный мир литературы. У нас вы найдете книги на любой вкус!</p>
+            <a href="#catalog" class="catalog-button">Перейти в каталог</a>
+        </section>
+
+        <section class="catalog">
+            <h2>Популярные товары</h2>
+            <div class="products">
+                <article class="product"> 
+                    <img src="1984.jpg" alt="1984 - Джоурдж Оруэлл">
+                    <p class="product-title">1984 - Джоурдж Оруэлл</p>
+                    <p class="product-summary">Антиутопия о мире тотального контроля и наблюдения. </p>
+                    <p class="product-price"> 650 ₽</p>
+                    <a href="book-1984.html" class="product-detail-link"> Подробнее о книге</a>
+                    <p class="product-action"><button type="button">Добавить в корзину</button></p>
+                </article>
+
+                <article class="product">
+                    <img src="master.jpg" alt="Мастер и маргарита">
+                    <p class="product-title">Мастер и маргарита</p>
+                    <p class="product-summary">Знаменитый роман о любви, добре, зле и человеческой природе.</p>
+                    <p class="product-price">790 ₽</p>
+                    <a href="book-master.html" class="product-detail-link">Подробнее о книге</a>
+                    <p class="product-action"><button type="button">Добавить в корзину</button></p>
+
+                </article>
+
+                <article class="product">
+                    <img src="prestyplenie.jpg" alt="Преступление и наказание">
+                    <p class="product-title">Преступление и наказание</p>
+                    <p class="product-summary">Психологический роман о преступлении, совести и искуплении. </p>
+                    <p class="product-price">720 ₽</p>
+                    <a href="book-prestuplenie.html" class="product-detail-link">Подробнее о книге</a>
+                    <p class="product-action">
+                        <button type="button">Добавить в корзину</button>
+                    </p>
+                </article>
+
+                <article class="product">
+                    <img src="miserable.jpg" alt="Отверженные">
+                    <p class="product-title">Отверденные - Виктор Гюго </p>
+                    <p class="product-summary">Масштабный роман о справедливости, милосердии и человеческой судьбе.</p>
+                    <p class="product-price">950 ₽ </p>
+                    <a href="book.miserable.html" class="product-detail-link">Подробнее о книге </a>
+                    <p class="product-action"> <button type="button">Добавить в корзину</button></p>
+
+                </article>
+
+                
+
+            </div>
+        </section>
+
+        <section class="promotion">
+            <h2>Специальное предложение!</h2>
+            <p>Скидка 20% на все книги при покупке от трех экземпляров.</p>
+            <b>Не упустите возможность пополнитьсвою библиотеку</b>
+        </section>
+
+        <section class="about" id="about">
+            <h2>О нашем магазине </h2>
+            <p>
+                BookWorld — это интернет-магазин для настоящих любителей чтения. Мы предлагаем широкий выбор художественной литературы, классики, фантастики и научно-популярных книг.
+            
+            </p>
+
+        </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+        <div>
+            <h3>BookWorld</h3>
+            <p>© 2026 BookWorld. Все права защищены.</p>
+        </div>
+
+        <div>
+            <h3>Контакты</h3>
+            <p>
+                Email:
+                <a href="mailto:bookworld@mail.ru">mailto:bookworld@mail.ru</a>
+            </p>
+
+            <p>Телефон: <a href="tel:+79001234567">+7 (900) 123-45-67</a></p>
+
+        </div>
+
+        <div>
+            <h3>Мы в социальных сетях</h3>
+            <a href="#">ВКонтакте</a>
+            <a href="#">Telegram</a>
+        </div>
+    </footer>
+    
+</body>
+</html>

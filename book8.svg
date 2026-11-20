@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="430" viewBox="0 0 300 430">
+    <rect width="300" height="430" rx="8" fill="#526a8a"/>
+    <rect x="18" y="18" width="264" height="394" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+    <text x="150" y="90" text-anchor="middle" font-size="18" font-family="Arial" fill="white">Александр Пушкин</text>
+    <text x="150" y="170" text-anchor="middle" font-size="22" font-family="Arial" fill="white">Евгений Онегин</text>
+    <path d="M105 300 L150 277 L195 300 L150 326 Z" fill="#ffffff" fill-opacity="0.65"/>
+    <text x="150" y="380" text-anchor="middle" font-size="12" font-family="Arial" fill="white">BOOKWORLD</text>
+</svg>
